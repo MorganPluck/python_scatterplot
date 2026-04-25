@@ -184,7 +184,7 @@ col_code, col_out = st.columns([1, 1], gap="large")
 # ── Helper: load source ───────────────────────────────────────────────────────
 import os
 
-UPLOAD_DIR = "/mnt/user-data/uploads"
+UPLOAD_DIR = "."
 
 def load_source(filename):
     path = os.path.join(UPLOAD_DIR, filename)
